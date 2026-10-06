@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <!-- MBU Logo Placeholder - Replace with actual SVG content -->
+  <defs>
+    <style>
+      .logo-text { fill: #C8102E; font-family: Arial, sans-serif; font-weight: bold; }
+      .logo-tagline { fill: #666; font-family: Arial, sans-serif; }
+      .logo-shield { fill: #C8102E; stroke: #C8102E; }
+      .logo-phoenix { fill: #FDB515; }
+    </style>
+  </defs>
+  
+  <!-- Shield Background -->
+  <path class="logo-shield" d="M 60 20 L 100 20 L 110 30 L 110 70 Q 110 90 80 100 Q 50 90 50 70 L 50 30 Z"/>
+  
+  <!-- Phoenix Symbol (simplified) -->
+  <g class="logo-phoenix">
+    <ellipse cx="80" cy="45" rx="15" ry="20"/>
+    <path d="M 65 35 Q 60 30 55 35 L 60 40"/>
+    <path d="M 95 35 Q 100 30 105 35 L 100 40"/>
+    <path d="M 70 60 L 65 75 M 90 60 L 95 75"/>
+  </g>
+  
+  <!-- MBU Text -->
+  <text x="130" y="70" class="logo-text" font-size="48">MBU</text>
+  <text x="130" y="95" class="logo-text" font-size="20">MOHAN BABU</text>
+  <text x="130" y="112" class="logo-text" font-size="16" letter-spacing="2">UNIVERSITY</text>
+  
+  <!-- Tagline -->
+  <text x="130" y="135" class="logo-tagline" font-size="11" letter-spacing="3">DREAM. BELIEVE. ACHIEVE</text>
+</svg>
