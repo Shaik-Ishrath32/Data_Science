@@ -66,7 +66,7 @@ export default function SignUpPage() {
         return;
       }
 
-      if (data.user) {
+      if (data?.user) {
         toast.success('Account created successfully! Please check your email to verify.');
         // Note: User profile will need to be created in the users table
         // This should be handled by a database trigger or backend function
@@ -248,3 +248,4 @@ export default function SignUpPage() {
     </div>
   );
 }
+

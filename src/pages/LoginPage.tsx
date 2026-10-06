@@ -48,7 +48,7 @@ export default function LoginPage() {
         return;
       }
 
-      if (data.user) {
+      if (data?.user) {
         toast.success('Signed in successfully!');
         navigate('/dashboard');
       }
@@ -194,3 +194,4 @@ export default function LoginPage() {
     </div>
   );
 }
+
